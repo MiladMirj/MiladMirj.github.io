@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://miladmirj.github.io//sitemap.xml
