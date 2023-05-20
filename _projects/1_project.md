@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Block matching motion estimation
-description: Block matching motion estimation is one of the methods of motion estimation in video frames.
+description: 
 img: assets/img/block1.png
 importance: 1
 category: Research
