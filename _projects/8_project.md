@@ -3,7 +3,7 @@ layout: page
 title: Designing digital to analog converter (DAC) and Analog to digital converter (ADC) using Cadence
 description: 
 img: assets/img/adc1.png
-importance: 5
+importance: 4
 category: Research
 ---
 <div style="text-align: justify;

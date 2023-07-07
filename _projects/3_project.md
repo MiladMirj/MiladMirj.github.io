@@ -3,7 +3,7 @@ layout: page
 title: Creating a portable solar battery charger using AVR
 description: 
 img: assets/img/3.png
-importance: 3
+importance: 6
 category: Research
 ---
 

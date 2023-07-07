@@ -3,7 +3,7 @@ layout: page
 title: Designing and creating a signal jammer
 description: 
 img: assets/img/4.png
-importance: 4
+importance: 7
 category: Research
 ---
 

@@ -3,7 +3,7 @@ layout: page
 title: Designing a fully differential two-stage op-amp and drawing the layout using Cadence
 description: 
 img: assets/img/amp1.png
-importance: 2
+importance: 3
 category: Research
 ---
 

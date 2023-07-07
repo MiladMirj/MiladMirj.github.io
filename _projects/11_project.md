@@ -3,7 +3,7 @@ layout: page
 title: Designing a class E power amplifier using Cadence
 description: 
 img: assets/img/rf1.png
-importance: 4
+importance: 5
 category: Research
 ---
 

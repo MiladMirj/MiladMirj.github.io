@@ -3,7 +3,7 @@ layout: page
 title: Simulating the performance of a PIN diode using Silvaco.
 description: 
 img: assets/img/pin1.png
-importance: 6
+importance: 8
 category: Research
 ---
 <div style="text-align: justify;
