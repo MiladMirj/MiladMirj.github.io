@@ -42,7 +42,14 @@ social: true  # includes social icons at the bottom of the page
 <p style="text-align: justify;">Milad's master thesis focuses on creating a variable-size adaptive block matching motion estimation algorithm, which aims to enhance the accuracy and efficiency of motion estimation in video processing applications. He also presented a deep learning method to enhance the block matching motion estimation algorithm.  </p>
 
 <h3>Computer Skills</h3>
-<p style="text-align: justify;">Milad Mirjalili is proficient in programming languages such as Python, C, and Java. He has extensive experience with libraries, including OpenCV, Pandas, TensorFlow, scikit-learn, NumPy, Matplotlib, Seaborn, and SciPy. Additionally, he is skilled in using Android Studio for Android software development and Unity Engine for game development.</p>
+<p style="text-align: justify;">Milad Mirjalili is proficient in programming languages such as Python, C, and Java. He has extensive experience with libraries, including OpenCV, Pandas, TensorFlow, scikit-learn, NumPy, Matplotlib, and SciPy. Additionally, he is skilled in using Android Studio for Android software development and Unity Engine for game development.</p>
+
+<h3>CERTIFICATIONS</h3>
+<ul>
+    <li><a href="https://www.coursera.org/account/accomplishments/certificate/6U74393LRGZQ">Advanced Computer Vision with TensorFlow (2022), Coursera</a></li>
+    <li><a href="https://www.coursera.org/account/accomplishments/certificate/9XBZ4VAYUXJV">Convolutional Neural Networks (2022), Coursera</a></li>
+    <li><a href="https://www.coursera.org/account/accomplishments/certificate/J3V5TN9X3Q3L">Neural Networks and Deep Learning (2022), Coursera</a></li>
+</ul>
 
 
 
