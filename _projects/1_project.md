@@ -7,10 +7,23 @@ importance: 1
 category: Research
 ---
 
+
+<h3><a href="https://www.youtube.com/watch?v=Yb-wSV6zZUM">YouTube Video explaining the algorithm !</a></h3>
+
 <div style="text-align: justify;
         text-justify: auto;">
-Block matching motion estimation is one of the methods of motion estimation in video frames. For performing block matching motion estimation, the current frame is divided into a number of non-overlapping blocks with specific sizes and by doing a search for each created block, the most similar block to that candidate block in the reference frame is selected. The ultimate goal is to report a motion vector that shows the amount of block displacement in two consecutive images. The purpose of this study is to provide an algorithm for block matching motion estimation with minimum error and high speed. In the first step of implementing this algorithm, a brand new and efficient method for automatically generating blocks with different shapes and sizes according to the identified location and direction of movement is designed. Three shapes: square, horizontal and vertical rectangles, are the available options. Next, by utilizing adaptive searching tools, such as the search window size selection, global motion compensation, and changing reference frame, it is attempted to decrease the computation load imposed on the system while maintaining the quality of motion estimation; therefore, after implementing each phase of the algorithm, its performance is compared with the previous stage. Finally, by introducing two patterns for scanning the blocks in the search window, the final result of this study is presented in two general categories of quality and efficiency.
+Block matching motion estimation is one of the methods of motion estimation in video frames. For performing block matching motion estimation, the current frame is divided into a number of non-overlapping blocks with specific sizes and by doing a search for each created block, the most similar block to that candidate block in the reference frame is selected. The ultimate goal is to report a motion vector that shows the amount of block displacement in two consecutive images. The purpose of this study is to provide an algorithm for block matching motion estimation with minimum error and high speed. In the first step of implementing this algorithm, a brand new and efficient method for automatically generating blocks with different shapes and sizes according to the identified location and direction of movement is designed. Three shapes: square, horizontal and vertical rectangles, are the available options. Next, by utilizing adaptive searching tools, such as the search window size selection, global motion compensation, and changing reference frame, it is attempted to decrease the computation load imposed on the system while maintaining the quality of motion estimation; therefore, after implementing each phase of the algorithm, its performance is compared with the previous stage. Finally, by introducing two patterns for scanning the blocks in the search window, the final result of this study is presented in two general categories of quality and efficiency. 
 </div>
+
+<div style="text-align: justify;
+        text-justify: auto;">
+In the second phase, Using Python and TensorFlow, I designed a model that outputs regions of interest (ROIs) highlighting
+areas of motion and identifies the best pixel block structures for more efficient video compression. The
+model utilizes convolutional neural networks (CNNs) for feature extraction and transfer learning, along
+with fully connected layers for classification. The dataset comprises a variety of video sequences with
+diverse motion characteristics. 
+</div>
+
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -42,6 +55,17 @@ Block matching motion estimation is one of the methods of motion estimation in v
 </div>
 <div class="caption">
     Generating blocks
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/Picture1.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    
+</div>
+<div class="caption">
+    Optimizing block matching estimation using deep learning
+
 </div>
 
 
