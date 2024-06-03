@@ -10,7 +10,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Block matching motion estimation | Milad  Mirjalili</title>
+    <title>Persian Text Detection using Wikipedia persian | Milad  Mirjalili</title>
     <meta name="author" content="Milad  Mirjalili">
     <meta name="description" content="">
 
@@ -37,7 +37,7 @@
     <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%F0%9F%91%A8%E2%80%8D%F0%9F%8E%93&lt;/text&gt;&lt;/svg&gt;">
     
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="http://localhost:4000/projects/1_project/">
+    <link rel="canonical" href="http://localhost:4000/projects/12_project/">
 
     <!-- Dark Mode -->
     
@@ -122,25 +122,17 @@
         <div class="post">
 
           <header class="post-header">
-            <h1 class="post-title">Block matching motion estimation</h1>
+            <h1 class="post-title">Persian Text Detection using Wikipedia persian</h1>
             <p class="post-description"></p>
           </header>
 
           <article>
-            <h3><a href="https://www.youtube.com/watch?v=Yb-wSV6zZUM" rel="external nofollow noopener" target="_blank">YouTube Video explaining the algorithm !</a></h3>
+            <h3><a href="https://github.com/MiladMirj/Wikipedia-fa-Articles-Extractor-with-Text-Detection" rel="external nofollow noopener" target="_blank">GitHub page !</a></h3>
 
 <div style="text-align: justify;
         text-justify: auto;">
-Block matching motion estimation is one of the methods of motion estimation in video frames. For performing block matching motion estimation, the current frame is divided into a number of non-overlapping blocks with specific sizes and by doing a search for each created block, the most similar block to that candidate block in the reference frame is selected. The ultimate goal is to report a motion vector that shows the amount of block displacement in two consecutive images. The purpose of this study is to provide an algorithm for block matching motion estimation with minimum error and high speed. In the first step of implementing this algorithm, a brand new and efficient method for automatically generating blocks with different shapes and sizes according to the identified location and direction of movement is designed. Three shapes: square, horizontal and vertical rectangles, are the available options. Next, by utilizing adaptive searching tools, such as the search window size selection, global motion compensation, and changing reference frame, it is attempted to decrease the computation load imposed on the system while maintaining the quality of motion estimation; therefore, after implementing each phase of the algorithm, its performance is compared with the previous stage. Finally, by introducing two patterns for scanning the blocks in the search window, the final result of this study is presented in two general categories of quality and efficiency. 
-</div>
+In the initial phase of this project, I aim to create an article scraper for Wikipedia in Persian. It will start from a random URL, extract all links on that page, then randomly open another page and repeat the process. Next, I aim to overlay text on different random images. Depending on the length of the text, I will break it into smaller chunks, and for each chunk, I will create images using a random font and draw the text at a random position on the image. I also create augmented images for better performance. Using a YOLO v5 model, The model will then take an image as input, with up to four possible locations of text and their bounding boxes. The model's output will be the number of detected bounding boxes and their coordinates. It was trained for maximum 4 text areas inside an image.
 
-<div style="text-align: justify;
-        text-justify: auto;">
-In the second phase, Using Python and TensorFlow, I designed a model that outputs regions of interest (ROIs) highlighting
-areas of motion and identifies the best pixel block structures for more efficient video compression. The
-model utilizes convolutional neural networks (CNNs) for feature extraction and transfer learning, along
-with fully connected layers for classification. The dataset comprises a variety of video sequences with
-diverse motion characteristics. 
 </div>
 
 <div class="row">
@@ -151,7 +143,7 @@ diverse motion characteristics.
     
 
     <!-- Fallback to the original file -->
-    <img src="/assets/img/tenniscol_generated2.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="example image" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+    <img src="/assets/img/train_batch2.jpg" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="example image" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
 
   </picture>
 
@@ -165,7 +157,7 @@ diverse motion characteristics.
     
 
     <!-- Fallback to the original file -->
-    <img src="/assets/img/tennisdiag_generated2.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="example image" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+    <img src="/assets/img/train_batch1.jpg" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="example image" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
 
   </picture>
 
@@ -179,7 +171,35 @@ diverse motion characteristics.
     
 
     <!-- Fallback to the original file -->
-    <img src="/assets/img/tennisrow_generated2.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="example image" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+    <img src="/assets/img/val_batch0_labels.jpg" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="example image" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+
+  </picture>
+
+</figure>
+
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/Capture2.JPG" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="example image" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+
+  </picture>
+
+</figure>
+
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/Capture.JPG" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="example image" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
 
   </picture>
 
@@ -188,77 +208,7 @@ diverse motion characteristics.
     </div>
 </div>
 <div class="caption">
-    Three possible block structures
-</div>
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        <figure>
-
-  <picture>
-    
-
-    <!-- Fallback to the original file -->
-    <img src="/assets/img/hall_frame50.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="example image" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-
-  </picture>
-
-</figure>
-
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        <figure>
-
-  <picture>
-    
-
-    <!-- Fallback to the original file -->
-    <img src="/assets/img/hall_mask50.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="example image" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-
-  </picture>
-
-</figure>
-
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        <figure>
-
-  <picture>
-    
-
-    <!-- Fallback to the original file -->
-    <img src="/assets/img/hall_static_all50.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="example image" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-
-  </picture>
-
-</figure>
-
-    </div>
-</div>
-<div class="caption">
-    Generating blocks
-</div>
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        <figure>
-
-  <picture>
-    
-
-    <!-- Fallback to the original file -->
-    <img src="/assets/img/Picture1.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="example image" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-
-  </picture>
-
-</figure>
-
-    </div>
-    
-</div>
-<div class="caption">
-    Optimizing block matching estimation using deep learning
-
+    Some labels and prediction
 </div>
 
 <!-- 

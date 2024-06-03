@@ -3,7 +3,7 @@ layout: page
 title: RGB to gray scale converter and Gaussian blur filter using VHDL
 description: 
 img: assets/img/2.jpg
-importance: 2
+importance: 3
 category: Research
 ---
 
